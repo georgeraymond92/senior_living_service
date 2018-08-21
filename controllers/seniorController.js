@@ -25,10 +25,5 @@ router.post("/api/orm", function (req, res) {
     });
 });
 
-
-router.get("/footer", function(req, res) {
-    res.render("partials/footer.handlebars");
-});
-
 module.exports = router;
   
